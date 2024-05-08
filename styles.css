@@ -11,6 +11,7 @@
     --Black: hsl(0, 0%, 7%);
     font-family: "Figtree", sans-serif;
 }
+
 body {
     background-color: var(--Yellow);
     display: flex;
@@ -19,8 +20,9 @@ body {
     align-items: center;
     min-height: 100vh;
     padding: 1rem;
-    
+
 }
+
 .card {
     max-width: 20rem;
     background-color: var(--White);
@@ -28,16 +30,18 @@ body {
     border: 1px solid var(--Black);
     box-shadow: 5px 5px;
     padding: 1rem;
-  
 
-  
-   
+
+
+
 }
+
 .img-head {
     border-radius: 10px;
     width: 100%;
-   
+
 }
+
 .head {
     display: inline-block;
     background-color: var(--Yellow);
@@ -47,29 +51,35 @@ body {
     font-weight: 600;
     margin-block: 10px;
 }
+
 .head-mid {
     margin-block: 10px;
 }
+
 .head-mid:hover {
     cursor: pointer;
     color: var(--Yellow);
 }
+
 .detail {
     color: var(--Grey);
     margin-block: 10px;
 }
+
 .last {
     display: flex;
     align-items: center;
     gap: 1em;
     padding-block: 1em;
-    
+
 }
+
 .avatar {
     width: 10%;
 }
+
 footer {
-    
+
     margin-top: 10rem;
     font-size: .5em;
     display: flex;
@@ -77,6 +87,7 @@ footer {
     align-items: center;
     cursor: pointer;
 }
+
 /* @media  (max-width: 375px) {
     .main {
         margin-top: 40%;
